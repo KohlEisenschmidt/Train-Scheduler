@@ -1,0 +1,42 @@
+body {
+    background: url("../assets/images/metal.jpg")
+}
+
+.jumbotron{
+    max-height: 300px;
+    margin-top: 20px; 
+    font-family: 'Rye', cursive;
+    color: #D4C937;
+    background-color: #bb2e1b;
+    text-shadow: 3px 3px #000000;
+}
+
+.panel-heading{
+    color: #bb2e1b;
+}
+
+.panel-title{
+    color: #D4C937;
+    font-family: 'Rye', cursive;
+    text-shadow:
+    -.55px -.55px 0 #000,
+    .55px -.55px 0 #000,
+    -.55px .55px 0 #000,
+    1.7px 1.7px 0 #000;
+}
+
+th {
+    font-family: 'Rye', cursive;
+} 
+
+tr {
+    font-family: 'Sancreek', cursive;
+}
+
+label {
+    font-family: 'Rye', cursive;
+}
+
+button {
+    font-family: 'Rye', cursive;
+}
