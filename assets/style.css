@@ -9,6 +9,7 @@ body {
     color: #D4C937;
     background-color: #bb2e1b;
     text-shadow: 3px 3px #000000;
+    align-content: center;
 }
 
 .panel-heading{
@@ -18,6 +19,7 @@ body {
 .panel-title{
     color: #D4C937;
     font-family: 'Rye', cursive;
+    letter-spacing: 1px;
     text-shadow:
     -.55px -.55px 0 #000,
     .55px -.55px 0 #000,
@@ -27,6 +29,7 @@ body {
 
 th {
     font-family: 'Rye', cursive;
+    letter-spacing: .5px;
 } 
 
 tr {
@@ -35,8 +38,14 @@ tr {
 
 label {
     font-family: 'Rye', cursive;
+    letter-spacing: .5px;    
+}
+
+input {
+    font-family: 'Sancreek', cursive;
 }
 
 button {
     font-family: 'Rye', cursive;
+    letter-spacing: .5px;    
 }
