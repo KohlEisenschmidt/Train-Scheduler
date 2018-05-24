@@ -1,51 +1,92 @@
 body {
-    background: url("../assets/images/metal.jpg")
+  background: url("../assets/imag/esmetal.jpg");
 }
 
-.jumbotron{
-    max-height: 300px;
-    margin-top: 20px; 
-    font-family: 'Rye', cursive;
-    color: #D4C937;
-    background-color: #bb2e1b;
-    text-shadow: 3px 3px #000000;
-    text-align: center;
+.jumbotron {
+  max-height: 300px;
+  margin-top: 20px;
+  font-family: "Rye", cursive;
+  color: #d4c937;
+  background-color: #bb2e1b;
+  text-shadow: 3px 3px #000000;
+  text-align: center;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  box-shadow: 0 1px 0 rgb(128, 141, 147), -1px 0 0 rgb(205, 210, 213),
+    1px 2px 0 rgb(128, 141, 147), 2px -1px 0 rgb(205, 210, 213),
+    2px 3px 0 rgb(128, 141, 147), 3px 2px 0 rgb(205, 210, 213),
+    3px 4px 0 rgb(128, 141, 147), 4px 3px 0 rgb(205, 210, 213),
+    4px 5px 0 rgb(128, 141, 147), 5px 4px 0 rgb(205, 210, 213),
+    5px 6px 0 rgb(128, 141, 147), 6px 5px 0 rgb(205, 210, 213),
+    6px 7px 0 rgb(128, 141, 147), 7px 6px 0 rgb(205, 210, 213),
+    7px 8px 0 rgb(128, 141, 147), 8px 7px 0 rgb(205, 210, 213);
 }
 
-.panel-heading{
-    color: #bb2e1b;
+.panel-primary {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  box-shadow: 0 1px 0 rgb(128, 141, 147), -1px 0 0 rgb(205, 210, 213),
+    1px 2px 0 rgb(128, 141, 147), 2px -1px 0 rgb(205, 210, 213),
+    2px 3px 0 rgb(128, 141, 147), 3px 2px 0 rgb(205, 210, 213),
+    3px 4px 0 rgb(128, 141, 147), 4px 3px 0 rgb(205, 210, 213),
+    4px 5px 0 rgb(128, 141, 147), 5px 4px 0 rgb(205, 210, 213),
+    5px 6px 0 rgb(128, 141, 147), 6px 5px 0 rgb(205, 210, 213),
+    6px 7px 0 rgb(128, 141, 147), 7px 6px 0 rgb(205, 210, 213),
+    7px 8px 0 rgb(128, 141, 147), 8px 7px 0 rgb(205, 210, 213);
 }
 
-.panel-title{
-    color: #D4C937;
-    font-family: 'Rye', cursive;
-    letter-spacing: 1px;
-    text-shadow:
-    -.55px -.55px 0 #000,
-    .55px -.55px 0 #000,
-    -.55px .55px 0 #000,
-    1.7px 1.7px 0 #000;
+.panel-heading {
+  color: #bb2e1b;
+}
+
+.panel-title {
+  color: #d4c937;
+  font-family: "Rye", cursive;
+  letter-spacing: 1px;
+  text-shadow: -0.55px -0.55px 0 #000, 0.55px -0.55px 0 #000,
+    -0.55px 0.55px 0 #000, 0.55px 0.55px 0 #000, 1.7px 1.7px 0 #000;
+}
+
+.panel-default {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+
+  box-shadow: 0 1px 0 rgb(128, 141, 147), -1px 0 0 rgb(205, 210, 213),
+    1px 2px 0 rgb(128, 141, 147), 2px -1px 0 rgb(205, 210, 213),
+    2px 3px 0 rgb(128, 141, 147), 3px 2px 0 rgb(205, 210, 213),
+    3px 4px 0 rgb(128, 141, 147), 4px 3px 0 rgb(205, 210, 213),
+    4px 5px 0 rgb(128, 141, 147), 5px 4px 0 rgb(205, 210, 213),
+    5px 6px 0 rgb(128, 141, 147), 6px 5px 0 rgb(205, 210, 213),
+    6px 7px 0 rgb(128, 141, 147), 7px 6px 0 rgb(205, 210, 213),
+    7px 8px 0 rgb(128, 141, 147), 8px 7px 0 rgb(205, 210, 213);
 }
 
 th {
-    font-family: 'Rye', cursive;
-    letter-spacing: .5px;
-} 
+  font-family: "Rye", cursive;
+  letter-spacing: 0.5px;
+}
 
 tr {
-    font-family: 'Sancreek', cursive;
+  font-family: "Sancreek", cursive;
 }
 
 label {
-    font-family: 'Rye', cursive;
-    letter-spacing: .5px;    
+  font-family: "Rye", cursive;
+  letter-spacing: 0.5px;
 }
 
 input {
-    font-family: 'Sancreek', cursive;
+  font-family: "Sancreek", cursive;
 }
 
 button {
-    font-family: 'Rye', cursive;
-    letter-spacing: .5px;    
+  font-family: "Rye", cursive;
+  letter-spacing: 0.5px;
 }
